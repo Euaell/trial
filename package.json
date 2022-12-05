@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "npm run build && node ./dist/application.js",
+    "build": "tsc && npm run build",
+    "start": "node ./dist/application.js",
     "now": "npx ts-node ./src/application.ts"
   },
   "keywords": [],
